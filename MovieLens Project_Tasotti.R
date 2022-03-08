@@ -22,6 +22,7 @@ if(!require(ggplot2)) install.packages("tidyverse", repos = "http://cran.us.r-pr
 if(!require(tidyverse)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 if(!require(caret)) install.packages("caret", repos = "http://cran.us.r-project.org")
 if(!require(data.table)) install.packages("data.table", repos = "http://cran.us.r-project.org")
+if(!require(ggplot2)) install.packages("tidyverse", repos = "http://cran.us.r-project.org")
 
 library(ggplot2)
 library(tidyverse)
