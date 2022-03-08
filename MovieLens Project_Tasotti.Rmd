@@ -395,7 +395,7 @@ rmse_results
 ```
 
 # 4.2. MOVIE EFFECT
-Priviuous calculations show that some movies are just generally rated higher than others. This intuition that different movies are rated differently is confirmed by data. We add the term b_i to our previous model to represent the average ranking for movie i. 
+Previous calculations show that some movies are just generally rated higher than others. This intuition that different movies are rated differently is confirmed by data. We add the term b_i to our previous model to represent the average ranking for movie i. 
 
 The lm() function will be very slow and so I compute it in the whole model using the average like in the following way:
 
